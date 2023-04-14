@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-web-3"
+version = "0.1.0"
+description = ""
+authors = ["Ruslan2512 <ruslansirenko25@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_web_3"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+logging = "^0.4.9.6"
+pool = "^0.1.2.dev0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
